@@ -149,6 +149,11 @@ html {
   font-weight: 600;
   padding: 13.5px 15px;
   margin-bottom: 26px;
+  transition: 0.3s;
+}
+
+.main__submit:hover {
+  background-color: #3774e4;
 }
 
 .main__or {
@@ -166,6 +171,11 @@ html {
   font-size: 18px;
   font-weight: 600;
   padding: 14.5px 15px;
+  transition: 0.3s;
+}
+
+.main__second:hover {
+  background-color: #d8d9db;
 }
 
 .main {
