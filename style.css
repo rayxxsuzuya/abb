@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fffdfb;
+  min-width: 350px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+button,
+select,
+label {
+  font-family: 'Inter', sans-serif;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0;
+}
+
+.header__logo {
+  width: 110px;
+}
+
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  padding-left: 42px;
+}
+
+.header__langs {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  gap: 15px;
+}
+
+.header__lang {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a5a9b4;
+}
+
+.header__lang.active {
+  color: #1c1f28;
+}
+
+.main {
+  padding: 163px 0 40px;
+}
+
+.main__chooses {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 51px;
+}
+
+.main__choose {
+  color: #a2acb8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main__choose.active {
+  color: #2a2d34;
+}
+
+.main__label {
+  display: block;
+  color: #181526;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.main__input {
+  display: block;
+  width: 100%;
+  padding: 11px 15px;
+  border-radius: 5px;
+  border: 1px solid #ecebf1;
+  margin-bottom: 41px;
+  background-color: transparent;
+}
+
+.main__submit {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  background-color: #2158bc;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 13.5px 15px;
+  margin-bottom: 26px;
+}
+
+.main__or {
+  text-align: center;
+  margin-bottom: 26px;
+  color: #808490;
+}
+
+.main__second {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  background-color: #eef1f6;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14.5px 15px;
+}
+
+.main {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
